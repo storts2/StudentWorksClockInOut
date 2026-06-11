@@ -7,6 +7,7 @@ namespace StudentWorksClockInOut.Config;
 public static class Constants
 {
     public const string employeeDbName = "Employee.db3";
+    public const string timeEntryDbName = "TimeEntry.db3";
 
     public const SQLite.SQLiteOpenFlags Flags =
         SQLite.SQLiteOpenFlags.ReadWrite |
@@ -15,4 +16,7 @@ public static class Constants
 
     public static string employeeDbPath =>
         Path.Combine(FileSystem.AppDataDirectory, employeeDbName);
+
+    public static string timeEntryDbPath => 
+        Path.Combine(FileSystem.AppDataDirectory, timeEntryDbName);
 }
