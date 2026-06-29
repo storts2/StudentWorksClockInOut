@@ -17,6 +17,7 @@ public static class MauiProgram
             });
 
         builder.Services.AddSingleton<EmployeeDatabase>();
+        builder.Services.AddSingleton<TimeEntryRepository>();
 
 #if DEBUG
 		builder.Logging.AddDebug();

@@ -36,6 +36,13 @@ public class TimeEntryRepository
         return await database.Table<TimeEntry>().Where(i => i.Id == id).FirstOrDefaultAsync();
     }
 
+    // Time entry of an employee
+    public async Task<TimeEntry> GetEmployeeLatestEntryAsync(int employeeId)
+    {
+        await Init();
+        return await database.Table<TimeEntry>().Where(i => i.EmployeeId == employeeId).OrderByDescending(i => i.Id).FirstOrDefaultAsync();
+    }
+
     // Insert time entry
     public async Task<int> SaveTimeEntryAsync(TimeEntry timeEntry)
     {

@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentWorksClockInOut")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+240f0d8f0a3c6087a2a329dcbaae84d26011002a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c45cb7382366c0fc394e9182e230ca9d580adc32")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentWorksClockInOut")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentWorksClockInOut")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

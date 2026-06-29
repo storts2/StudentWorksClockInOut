@@ -17,9 +17,11 @@
               Grid.Row="1"
               RowSpacing="20" ColumnSpacing="20">
             <Button Grid.Column="0" Grid.Row="0"
-                    Text="CLOCK IN"/>
+                    Text="CLOCK IN"
+                    Clicked="OnClockIn"/>
             <Button Grid.Column="0" Grid.Row="1"
-                    Text="CLOCK OUT"/>
+                    Text="CLOCK OUT"
+                    Clicked="OnClockOut"/>
             <VerticalStackLayout Grid.Column="1" Grid.RowSpan="2"
                                  VerticalOptions="Center"
                                  Spacing="20">
